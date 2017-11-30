@@ -1,7 +1,7 @@
 var div = document.createElement("div");
 var node = document.createTextNode('<img alt="pickle" src="images/pickle">');
 div.appendChild(node);
-div.style.visibility = "hidden";
+div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
 
