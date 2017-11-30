@@ -6,7 +6,7 @@ div.style.zIndex = "3";
 div.appendChild(node);
 document.body.appendChild(div);
 console.log(div);
-console.log(node;
+console.log(node);
 throw new Error();
 var firstevent = -1;
 var supported = -1;
