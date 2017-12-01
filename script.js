@@ -1,10 +1,8 @@
 var div = document.createElement("div");
-var node = document.createTextNode('<img alt="pickle" src="images/pickle">');
-div.appendChild(node);
+document.getElementByTagName('div').innerHTML = '<img alt="pickle" src="images/pickle">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
-
 document.body.appendChild(div);
 console.log(div);
 console.log(node);
