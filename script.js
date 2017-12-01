@@ -16,4 +16,4 @@ var jack = document.getElementById('jack');
 jack.style.top=y+'px';
 jack.style.left=x+50+'px';
 
-}
+
