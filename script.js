@@ -1,6 +1,6 @@
 window.onload = function() {
 var div = document.createElement("div");
-div.innerHTML = '<img alt="pickle" src="images/Pickle_rick_transparent.png">';
+div.innerHTML = '<img alt="pickle" src="images/Pickle_rick_transparent4.png">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
@@ -15,5 +15,5 @@ document.onmousemove=function(e){
   else {x=event.clientX;y=event.clientY;}
   var jack = document.getElementById('jack');
   jack.style.top=y+'px';
-  jack.style.left=x-500+'px';
+  jack.style.left=x-90+'px';
   }};
