@@ -4,6 +4,7 @@ div.innerHTML = '<img alt="pickle" src="images/pickle">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
+div.className = "jack";
 document.body.appendChild(div);
 
 var firstevent = -1;
