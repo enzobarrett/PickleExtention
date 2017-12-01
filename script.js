@@ -16,4 +16,6 @@ document.onmousemove=function(e){
   var jack = document.getElementById('jack');
   jack.style.top=y+'px';
   jack.style.left=x-90+'px';
+  console.log(x);
+  console.log(y);
   }};
