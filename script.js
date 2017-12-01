@@ -1,6 +1,6 @@
 window.onload = function() {
 var div = document.createElement("div");
-div.innerHTML = '<img alt="pickle" src="images/pickle">';
+div.innerHTML = '<img alt="pickle" src="images/Pickle_rick_transparent.png">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
