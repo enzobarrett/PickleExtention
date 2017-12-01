@@ -1,13 +1,11 @@
 var div = document.createElement("div");
-document.body.appendChild(div);
 div.innerHTML = '<img alt="pickle" src="images/pickle">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
+document.body.appendChild(div);
 
-console.log(div);
-console.log(node);
-throw new Error();
+
 var firstevent = -1;
 var supported = -1;
 var xcurs=0;
