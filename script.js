@@ -5,7 +5,7 @@ div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
 document.body.appendChild(div);
-};
+
 var firstevent = -1;
 var supported = -1;
 var xcurs=0;
@@ -43,3 +43,4 @@ return;
 
 myTimeout=setTimeout('showBat()',10);
 document.onmousemove=updatePosition;
+};
