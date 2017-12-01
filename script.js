@@ -11,10 +11,9 @@ document.body.appendChild(div);
 
 document.onmousemove=function(e){
   var x, y;
-  if (e) {x=e.clientX; y=e.clientY;} 
+  if (e) {x=e.clientX; y=e.clientY;}
   else {x=event.clientX;y=event.clientY;}
   var jack = document.getElementById('jack');
   jack.style.top=y+'px';
-  jack.style.left=x+50+'px';
+  jack.style.left=x-500+'px';
   }};
-
