@@ -1,5 +1,5 @@
 var div = document.createElement("div");
-document.getElementsByTagName('div').innerHTML = '<img alt="pickle" src="images/pickle">';
+div.innerHTML = '<img alt="pickle" src="images/pickle">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "3";
