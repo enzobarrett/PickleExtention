@@ -12,7 +12,7 @@ document.onmousemove=function(e){
   var x, y;
   if (e) {x=e.clientX; y=e.clientY;} 
   else {x=event.clientX;y=event.clientY;}
-  var jack = document.getElementByClassName('jack');
+  var jack = document.getElementsByClassName('jack');
   jack.style.top=y+'px';
   jack.style.left=x+50+'px';
   }};
