@@ -6,18 +6,14 @@ div.style.position = "absolute";
 div.style.zIndex = "3";
 div.className = "jack";
 div.id = "jack";
-
 document.body.appendChild(div);
-
 document.onmousemove=function(e){
   var x, y;
+  var jack = document.getElementById('jack');
   if (e) {x=e.clientX; y=e.clientY;}
   else {x=event.clientX;y=event.clientY;}
-  var jack = document.getElementById('jack');
-  if (x == 0) {jack.style.visibility=none;}
-  else {jack.stylel.visibility=visible;}
+  if (x === 0) {jack.style.visibility=none; console.log(hidden);}
+  else {jack.stylel.visibility=visible; console.log(visible);}
   jack.style.top=y+'px';
   jack.style.left=x-90+'px';
-  console.log(x);
-  console.log(y);
   }};
