@@ -11,8 +11,6 @@ document.onmousemove=function(e){
   var x, y;
   var jack = document.getElementById('jack');
   if (e) {x=e.clientX; y=e.clientY;} else {x=event.clientX;y=event.clientY;};
-  if (x = 0) {jack.style.visibility: hidden;} else {jack.style.visibility: visible;};
-
   jack.style.top=y+'px';
   jack.style.left=x-90+'px';
   }};
