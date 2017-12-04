@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Pickle Rick Mouse Follower",
+  "description": "",
+  "version": "1.0",
+  "content_scripts": [
+    { "matches": ["http://*/*"], "js": ["script.js"] }
+  ],
+  "permissions": [
+   "tabs",
+ ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+}
