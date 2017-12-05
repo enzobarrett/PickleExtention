@@ -9,12 +9,7 @@ div.style.zIndex = "20000";
 div.className = "jack";
 div.id = "jack";
 document.body.appendChild(div);
-/*document.getScroll= function(){
-  var scroll = element.scrollTop;
-  };
-  */
 document.onmousemove=function(e){
-  var scroll;
   var x, y;
   var scroll = element.scrollTop;
   var jack = document.getElementById('jack');
