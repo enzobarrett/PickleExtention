@@ -3,6 +3,7 @@
   "name": "Pickle Rick Mouse Follower",
   "description": "",
   "version": "1.0",
+<<<<<<< HEAD
   "content_scripts": [
     { "matches": ["http://*/*"], "js": ["script.js"] }
   ],
@@ -10,4 +11,11 @@
    "tabs"
  ]
  
+=======
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["script.js"]
+  }],
+  "web_accessible_resources":["images/Pickle_rick_transparent4.png"] 
+>>>>>>> e1b617444ef5d73459c32cef1feb3f6c2f6240f4
 }
