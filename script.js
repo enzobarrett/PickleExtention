@@ -5,7 +5,6 @@ div.firstElementChild.src = chrome.extension.getURL("images/Pickle_rick_transpar
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "20000";
-
 div.className = "jack";
 div.id = "jack";
 document.body.appendChild(div);
@@ -15,7 +14,7 @@ document.onmousemove=function(e){
   if (e) {x=e.clientX; y=e.clientY;} else {x=event.clientX;y=event.clientY;}
   if (y <= 10) {jack.style.visibility="hidden";} else {jack.style.visibility="visible";}
   jack.style.top=y+'px';
-  jack.style.left=x-90+'px';
+  jack.style.left=x-85+'px';
   console.log(x);
   console.log(y);
   }};
