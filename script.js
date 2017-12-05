@@ -14,7 +14,9 @@ document.body.appendChild(div);
   };
   */
 document.onmousemove=function(e){
+  var scroll;
   var x, y;
+  var scroll = element.scrollTop;
   var jack = document.getElementById('jack');
   if (e) {x=e.clientX; y=e.clientY;} else {x=event.clientX;y=event.clientY;}
   if (y <= 10) {jack.style.visibility="hidden";} else {jack.style.visibility="visible";}
