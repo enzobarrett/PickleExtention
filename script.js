@@ -1,6 +1,6 @@
 window.onload = function() {
 var div = document.createElement("div");
-var scroll;
+
 div.innerHTML = '<img alt="pickle" src="">';
 div.firstElementChild.src = chrome.extension.getURL("images/Pickle_rick_transparent4.png");
 div.style.visibility = "visible";
@@ -10,7 +10,7 @@ div.className = "jack";
 div.id = "jack";
 document.body.appendChild(div);
 document.getScroll= function(){
-  scroll = element.scrollTop;
+  var scroll = element.scrollTop;
   };
 document.onmousemove=function(e){
   var x, y;
