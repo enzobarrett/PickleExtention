@@ -17,6 +17,5 @@ document.onmousemove=function(e){
   if (y <= 10) {jack.style.visibility="hidden";} else {jack.style.visibility="visible";}
   jack.style.top=y/*+scroll*/+'px';
   jack.style.left=x-85+'px';
-  var element = window.document;
-  console.log(element.scrollTop);
+  console.log(window.document.scrollTop);
   }};
