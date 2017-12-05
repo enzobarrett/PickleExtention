@@ -1,10 +1,10 @@
 window.onload = function() {
 var div = document.createElement("div");
-div.innerHTML = '<img alt="pickle" src="">';
+div.innerHTML = '<img alt="pickle" src="chrome.extension.getURL("images/Pickle_rick_transparent4.png");">';
 div.style.visibility = "visible";
 div.style.position = "absolute";
-div.style.zIndex = "3";
-div.src = chrome.extension.getURL("images/Pickle_rick_transparent4.png");
+div.style.zIndex = "20000";
+
 div.className = "jack";
 div.id = "jack";
 document.body.appendChild(div);
