@@ -3,11 +3,12 @@
   "name": "Pickle Rick Mouse Follower",
   "description": "",
   "version": "1.0",
-  "content_scripts": [
-    { "matches": ["http://*/*"], "js": ["script.js"] }
-  ],
-  "permissions": [
-   "tabs"
- ]
+  
+ "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js"]
+    }
+  ]
 
 }
