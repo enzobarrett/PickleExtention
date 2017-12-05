@@ -1,7 +1,7 @@
 window.onload = function() {
 var div = document.createElement("div");
 div.innerHTML = '<img alt="pickle" src="">';
-div.src = chrome.extension.getURL("images/Pickle_rick_transparent4.png");
+div.firstElementChild.src = chrome.extension.getURL("images/Pickle_rick_transparent4.png");
 div.style.visibility = "visible";
 div.style.position = "absolute";
 div.style.zIndex = "20000";
