@@ -18,5 +18,5 @@ document.onmousemove=function(e){
   jack.style.top=y/*+scroll*/+'px';
   jack.style.left=x-85+'px';
   var element = document.body;
-  console.log(elememt.scrollTop);
+  console.log(element.scrollTop);
   }};
